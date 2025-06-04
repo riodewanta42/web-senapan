@@ -7,6 +7,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Installation
+
+Follow these steps to get your Laravel project up and running:
+
+1. **Copy the Environment File:**
+   Copy the example environment file to create your own configuration.
+   ```bash
+   cp .env.example .env
+   ```
+2. **Install Dependecies:**
+   Install composer dependecies.
+   ```bash
+   composer install
+   ```
+3. **Generate Laravel Key:**
+   Generate laravel key.
+   ```bash
+   php artisan key:generate
+   ```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
